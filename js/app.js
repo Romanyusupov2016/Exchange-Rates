@@ -29,6 +29,7 @@ const app = new Vue({
                             break;
                         case 'EUR':
                             this.selectedValutes.push(arr[1]);
+                            break;
                     }
                 }
             })
